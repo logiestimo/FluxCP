@@ -14,7 +14,7 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '51.79.157.53',
-			'Username'   => 'cloudro',
+			'Username'   => 'web',
 			'Password'   => 'ayanami222',
 			'Database'   => 'clouddb',
 			'Persistent' => true,
@@ -35,7 +35,7 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '51.79.157.53',
-			'Username'   => 'cloudro',
+			'Username'   => 'web',
 			'Password'   => 'ayanami222',
 			'Database'   => 'logs',
 			'Persistent' => true,
