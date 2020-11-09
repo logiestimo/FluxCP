@@ -1,0 +1,44 @@
+/**
+ * iRO Custom CSS File
+ */
+h1, h2 { color: #2991c5; }
+h3 { color: #bbb; }
+
+
+.mainpagecontent { overflow-x: auto; }
+ .horizontal-table th, .horizontal-table td { background-color: transparent !important; }
+ .vertical-table th, .vertical-table td { background-color: transparent !important; }
+ .pages .current-page { color: #6b6969; }
+ .generic-form-div { background-color: transparent !important; }
+ .generic-form-table td p { color: white; }
+#Index { color: #FFF; }
+#Index DIV { color: #FFF; float: none; }
+#server_status { background-color: transparent !important; }
+#server_status .server { color: #9a9a9a; }
+
+
+
+#Index DIV.bannerT {
+    float:left;
+}
+#Index DIV.kafrashopT {
+    float:right;
+}
+
+
+#Index DIV.facebook {
+    float:left;
+}
+#Index DIV.wallpapers {
+    float:right;
+}
+
+#Index DIV.latestnews DIV.middle DIV.news DIV.summary {
+    margin: 0px 0px 7px 157px;
+}
+#Index DIV.latestnews DIV.middle DIV.news DIV.header {
+    display: inline-flex;
+}
+#Index DIV.latestnews DIV.middle DIV.news DIV.thumb {
+    float: left;
+}

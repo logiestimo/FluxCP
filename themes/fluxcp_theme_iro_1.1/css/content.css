@@ -1,0 +1,460 @@
+@charset "utf-8";
+/* Ragnarok Online Content */
+
+#Index { width:100%; height:auto; float:left; margin:0px; padding:0px; }
+
+#ContentHeader { width:600px; height:82px; margin:0px; padding:0px; background-repeat:no-repeat; }
+#ContentHeader DIV.sitemap { width:500px; height:14px; margin:60px 15px 0px 10px; float:right; text-align:right; font-size:10px; color:#FFFFFF; } 
+#ContentHeader.Introduction { background-image:url(../img/bg_header_Introduction.png); }
+#ContentHeader.howtoplay { background-image:url(../img/bg_header_howtoplay.png); }
+#ContentHeader.helpfulstartguide { background-image:url(../img/bg_header_helpfulSGuide.png); }
+#ContentHeader.backgroundstory { background-image:url(../img/bg_header_bgstory.png); }
+#ContentHeader.classes { background-image:url(../img/bg_header_classes.png); }
+#ContentHeader.features { background-image:url(../img/bg_header_features.png); }
+#ContentHeader.communityfeatures { background-image:url(../img/bg_header_communityfeatures.png); }
+#ContentHeader.news { background-image:url(../img/bg_header_news.png); }
+#ContentHeader.updates { background-image:url(../img/bg_header_updates.png); }
+#ContentHeader.events { background-image:url(../img/bg_header_events.png); }
+#ContentHeader.multimedia { background-image:url(../img/bg_header_multimedia.png); }
+#ContentHeader.wallpapers { background-image:url(../img/bg_header_wallpapers.png); }
+#ContentHeader.clientdownload { background-image:url(../img/bg_header_clientdownload.png); }
+#ContentHeader.fansites { background-image:url(../img/bg_header_fansites.png); }
+#ContentHeader.skins { background-image:url(../img/bg_header_skins.png); }
+#ContentHeader.hallofhonor { background-image:url(../img/bg_header_hallofhonor.png); }
+#ContentHeader.itemmallguide { background-image:url(../img/bg_header_kafrashopguide.png); }
+#ContentHeader.itemmalllist { background-image:url(../img/bg_header_itemmalllist.png); }
+#ContentHeader.cardlist { background-image:url(../img/bg_header_cardlist.png); }
+
+#Share DIV { float:left; margin:0px; padding:0px; }
+#Share DIV.itemmalllistBG { width:600px; height:auto; margin:0px; padding:0px; }
+#Share DIV.itemmalllistBG DIV.top { width:600px; height:11px; background-image:url(../img/bg_itemmalllistBG_top.png); }
+#Share DIV.itemmalllistBG DIV.middle { width:600px; height:auto; background-image:url(../img/bg_itemmalllistBG_middle.png); }
+#Share DIV.itemmalllistBG DIV.bottom { width:600px; height:11px; background-image:url(../img/bg_itemmalllistBG_bottom.png); }
+#Share DIV.opacity { width:600px; height:auto; margin:0px; padding:0px; }
+#Share DIV.opacity DIV.blank { width:600px; height:10px; }
+#Share DIV.opacity DIV.top { width:600px; height:10px; background-image:url(../img/bg_opacityContant_top.png); }
+#Share DIV.opacity DIV.middle { width:600px; height:auto; background-image:url(../img/bg_opacityContant_middle.png); }
+#Share DIV.opacity DIV.middle DIV.notice { width:560px; height:auto; margin:0px 20px; padding:0px; font-size:12px; color:#FFFFFF; }
+#Share DIV.opacity DIV.bottom { width:600px; height:10px; background-image:url(../img/bg_opacityContant_bottom.png); }
+#Share DIV.opacity2 { width:600px; height:auto; margin:0px; padding:0px; }
+#Share DIV.opacity2 DIV.blank { width:600px; height:10px; }
+#Share DIV.opacity2 DIV.top { width:600px; height:16px; background-image:url(../img/bg_opacity2Contant_top.png); }
+#Share DIV.opacity2 DIV.middle { width:600px; height:auto; background-image:url(../img/bg_opacity2Contant_middle.png); }
+#Share DIV.opacity2 DIV.middle DIV.notice { width:560px; height:auto; margin:0px 20px; padding:0px; font-size:12px; color:#FFFFFF; }
+#Share DIV.opacity2 DIV.bottom { width:600px; height:20px; background-image:url(../img/bg_opacity2Contant_bottom.png); }
+
+#Share02 DIV { float:left; margin:0px; padding:0px; }
+#Share02 DIV.opacity02 { width:600px; height:auto; margin:0px; }
+#Share02 DIV.opacity02 DIV.top02 { width:600px; height:54px; margin:5px 0px 0px 0px; background-image:url(../img/bg_container_top01.png); }
+#Share02 DIV.opacity02 DIV.top03 { width:600px; height:54px; margin:5px 0px 0px 0px; background-image:url(../img/bg_container_top02.png); }
+#Share02 DIV.opacity02 DIV.top04 { width:600px; height:54px; margin:5px 0px 0px 0px; background-image:url(../img/bg_container_top03.png); }
+#Share02 DIV.opacity02 DIV.top05 { width:600px; height:54px; margin:5px 0px 0px 0px; background-image:url(../img/bg_container_top04.png); }
+#Share02 DIV.opacity02 DIV.top06 { width:600px; height:54px; margin:5px 0px 0px 0px; background-image:url(../img/bg_container_top05.png); }
+#Share02 DIV.opacity02 DIV.middle02 { width:600px; height:auto; background-image:url(../img/bg_container_middle.png); background-repeat:repeat-y; }
+#Share02 DIV.opacity02 DIV.middle02 DIV.notice { width:560px; height:auto; margin:0px 20px; padding:0px; font-size:12px; color:#FFFFFF; }
+#Share02 DIV.opacity02 DIV.bottom02 { width:600px; height:17px; margin:0px 0px 5px 0px; background-image:url(../img/bg_container_bottom.png); }
+
+#likeboxFrame{
+ width:280px;
+ z-index:10;
+ height: 160px;
+ overflow: hidden;
+ position:relative;
+ top:-1px;
+ left:-3px;
+ bottom:20px;
+}
+#likeboxFrame iframe{
+  left:-6px;
+  overflow:hidden;
+  position:relative;
+  top:-1px;
+  bottom:20px;
+}
+
+#Index DIV { float:left; margin:0px; padding:0px; }
+#Index DIV.bannerT { width:254px; height:160px; background-image:url(../img/banner_classic.png); }
+#Index DIV.bannerT A { width:100%; height:100%; display:block; float:left; margin:0; padding:0; }
+#Index DIV.kafrashopT { width:346px; height:160px; background-image:url(../img/bg_kafrashop_temp.png); }
+#Index DIV.kafrashopT DIV.link { width:346px; height:43px; }
+#Index DIV.kafrashopT DIV.link A { width:100%; height:100%; display:block; margin:0; padding:0; }
+#Index DIV.kafrashopT DIV.blank { width:10px; height:0; margin:0px; padding:0px; float:right; }
+#Index DIV.kafrashopT DIV.itemscontainer { width:340px; height:110px; margin:0px; padding:0px; }
+#Index DIV.kafrashopT DIV.itemscontainer DIV.itemcontainer { width:97px; height:110px; margin:0px 5px; padding:0px; float:right; background-image:url(../img/bg_item.png); background-repeat:no-repeat; }
+#Index DIV.kafrashopT DIV.itemcontainer DIV.thumb {width:77px; height:73px; margin: 5px 10px; padding:0px; background-color:#FFFFFF; }
+#Index DIV.kafrashopT DIV.itemcontainer DIV.thumb IMG { width:77px; height:73px; margin:0px; padding:0px; }
+#Index DIV.kafrashopT DIV.itemcontainer DIV.text {width:97px; height:auto; margin:2px 0px; padding:0px; text-align:center; color:#00FFFF; font-size:10px; }
+
+
+/* 다시 오픈할 예정
+#Index DIV.kafrashop { width:600px; height:160px; background-image:url(../img/bg_kafrashop.png); }
+#Index DIV.kafrashop DIV.link { width:600px; height:43px; }
+#Index DIV.kafrashop DIV.link A { width:100%; height:100%; display:block; margin:0; padding:0; }
+#Index DIV.kafrashop DIV.blank { width:10px; height:160px; margin:0px; padding:0px; float:right; }
+#Index DIV.kafrashop DIV.itemscontainer { width:400px; height:110px; margin:0px; padding:0px;}
+#Index DIV.kafrashop DIV.itemscontainer DIV.itemcontainer { width:97px; height:110px; margin:0px 5px; padding:0px; float:right; background-image:url(../img/bg_item.png); background-repeat:no-repeat; }
+#Index DIV.kafrashop DIV.itemcontainer DIV.thumb {width:77px; height:73px; margin: 5px 10px; padding:0px; background-color:#FFFFFF; }
+#Index DIV.kafrashop DIV.itemcontainer DIV.thumb IMG { width:77px; height:73px; margin:0px; padding:0px; }
+#Index DIV.kafrashop DIV.itemcontainer DIV.text {width:97px; height:auto; margin:2px 0px; padding:0px; text-align:center; color:#00FFFF; font-size:10px; }
+*/
+
+#Index DIV.latestnews DIV.top { width:600px; height:39px; margin:0px; padding:0px; background-image:url(../img/bg_latestnewsT.png); }
+#Index DIV.latestnews DIV.middle { width:600px; height:auto; margin:0px; padding:0px; background-image:url(../img/bg_latestnewsM.png); background-repeat:repeat-y; }
+#Index DIV.latestnews DIV.middle DIV.news { width:600px; height:auto; margin:5px 0px 0px 0px; background-image:url(../img/bg_boardbar.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+#Index DIV.latestnews DIV.middle DIV.news A { display:block; color:#FFFFFF; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.thumb { width:137px; height:96px; margin:0px 7px 5px 13px; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.thumb IMG { width:137px; height:96px; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header { width:433px; height:20px; margin:10px 0px 0px 0px; padding:0px; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header DIV.section { width:13px; height:20px; margin:0px; padding:0px; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header DIV.title { width:362px; height:20px; margin:0px; padding:0px; font-weight:bold; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header DIV.title A { color:#FFCC00; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header DIV.title A:hover { color:#00FFFF; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.header DIV.date { width:40px; height:18px; margin:2px 0x 0px 3px; padding:0px; text-align:right; font-size:10px; color:#FF9900; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.summary { width:430px; height:auto; margin:0px 0px 5px 3px; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.summary DIV.text{ width:420px; min-height:40px; margin:0px; font-size:11px;}
+#Index DIV.latestnews DIV.middle DIV.news DIV.summary DIV.text A { display:inline; color:#00FFFF; text-decoration:underline; }
+#Index DIV.latestnews DIV.middle DIV.news DIV.summary DIV.more{ width:420px; height:12px; margin:2px 0px; text-align:right; }
+#Index DIV.latestnews DIV.bottom { width:600px; height:39px; margin:0px; padding:0px; background-image:url(../img/bg_latestnewsB.png); }
+#Index DIV.facebook { width:302px; height:234px; background-image:url(../img/bg_facebook.png); }
+#Index DIV.facebook DIV.itemField  { width:280; height:160px; margin:47px 0px 0px 14px; padding:0px; }
+#Index DIV.wallpapers { width:298px; height:234px; margin:0px; padding:0px; background-image:url(../img/bg_wallpapers.png); }
+#Index DIV.wallpapers A { width:298px; height:234px; margin:0px; padding:0px; display:block; }
+#Index DIV.wallpapers DIV.thumb { width:168px; height:126px; margin:45px 12px 0px 12px; background-color:#00FF33; } 
+
+
+#Classes DIV { float:left; margin:0px; padding:0px; }
+#Classes .default { color:#999999; }
+#Classes .color1stcha { color:#33FF00; }
+#Classes .color2ndcha { color:#00FFFF; }
+#Classes .colorT2ndcha { color:#FFCC00; }
+#Classes .color3rdcha { color:#FF3399; }
+#Classes .colornovicecha { color:#CCCCCC; }
+#Classes DIV.contentline { width:600px; height:2px; margin:0px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Classes DIV.index { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.index DIV.classescontainer { width:580px; height:auto; margin:5px 10px; padding:0px; }
+#Classes DIV.index DIV.classescontainer DIV.title { width:580px; height:auto; margin:0px 10px; padding:0px; font-size:16px; font-weight:bold; text-align:center; }
+#Classes DIV.index DIV.classescontainer DIV.title2 { width:260px; height:auto; margin:0px 10px; padding:0px; font-size:16px; font-weight:bold; text-align:center; }
+#Classes DIV.index DIV.classescontainer DIV.title3 { width:260px; height:auto; margin:0px 17px; padding:0px; font-size:16px; font-weight:bold; text-align:right; float:right; }
+#Classes DIV.index DIV.classescontainer DIV.classcha01 { width:90px; height:130px; margin:0px 3px 0px 3px; padding:0px; }
+#Classes DIV.index DIV.classescontainer DIV.classcha02 { width:50px; height:130px; margin:0px 0px 0px 0px; padding:0px; }
+#Classes DIV.arrowred { width:600px; height:45px; margin:0px; padding:0px; background-position:center top; background-repeat:no-repeat; background-image:url(../img/mc_arrow_red.png); }
+#Classes DIV.arrowgreen { width:600px; height:45px; margin:0px; padding:0px; background-position:center top; background-repeat:no-repeat; background-image:url(../img/mc_arrow_green.png); }
+#Classes DIV.arrowyellow { width:600px; height:45px; margin:0px; padding:0px; background-position:center top; background-repeat:no-repeat; background-image:url(../img/mc_arrow_yellow.png); }
+#Classes DIV.arrowblue { width:600px; height:45px; margin:0px; padding:0px; background-position:center top; background-repeat:no-repeat; background-image:url(../img/mc_arrow_blue.png); }
+#Classes DIV.header { width:600px; height:35px; margin:0px; padding:0px; background-image:url(../img/bg_jobtitle.png); background-repeat:no-repeat; }
+#Classes DIV.header DIV.title { width:280px; height:24px; margin:2px 0px 0px 50px; padding:0px; font-weight:bold; font-size:24px; color:#FFFFFF; text-shadow:1px 1px 2px #000000; }
+#Classes DIV.header DIV.dropdown { width:170px; height:24px; margin:5px 15px 0px 0px; padding:0px; font-size:12px; float:right; }
+#Classes DIV.header DIV.dropdown .box { border:solid 1px #CCCCCC; background-color:#333333; width:170px; height:20px; *height:22px; }
+#Classes DIV.classname { width:auto; height:auto; margin:2px 10px 0px 50px; padding:2px 20px 2px 5px; color:#CCCCCC; font-size:14px; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius:6px; background-color:rgba(0,0,0,0.6) !important; background-color:#000000; border: dotted 1px #666666; }
+#Classes DIV.navicontainer { width:240px; height:65px; margin:5px 10px 0px 0px; padding:0px; float:right; }
+#Classes DIV.navicontainer DIV.btn01 { width:60px; height:65px; margin:0px; padding:0px; float:right; }
+#Classes DIV.navicontainer DIV.btn02 { height:65px; margin:0px; padding:0px; float:right; }
+#Classes DIV.navicontainer DIV.btn03 { /* width:59px; */ height:65px; margin:0px; padding:0px; float:right; }
+#Classes DIV.navicontainer DIV.btn04 { width:59px; height:65px; margin:0px; padding:0px; float:right; }
+#Classes DIV.topcontainer { width:600px; min-height:402px; margin:0px; padding:0px; background-repeat:no-repeat; }
+#Classes DIV.topcontainer DIV.introcontainer { width:359px; height:auto; margin:15px 0px; padding:0px; float:right; }
+#Classes DIV.topcontainer DIV.introcontainer DIV.top { width:359px; height:10px; margin:0px; padding:0px; background-image:url(../img/bg_introT.png); }
+#Classes DIV.topcontainer DIV.introcontainer DIV.middle { width:359px; height:auto; margin:0px; padding:0px; background-image:url(../img/bg_introM.png); }
+#Classes DIV.topcontainer DIV.introcontainer DIV.middle DIV.introtext { width:294px; height:auto; min-height:250px; margin:2px 15px 5px 50px; padding:0px; color:#33FF99; font-family:"Times New Roman", Times, serif; font-size:14px; font-style:italic; /*font-weight:bold;*/ }
+#Classes DIV.topcontainer DIV.introcontainer DIV.bottom { width:359px; height:12px; margin:0px; padding:0px; background-image:url(../img/bg_introB.png); }
+#Classes DIV.jobchangeinfotitie { width:600px; height:14px; margin:5px 0px 0px 0px; padding:0px; background-image:url(../img/mc_title_jobchangeinformation.png); background-repeat:no-repeat; }
+#Classes DIV.middlecontainer { width:570px; height:auto; margin:0px 15px 0px 15px; padding:0px 0px 10px 0px; border:solid 2px #666666; -webkit-border-radius:10px; -moz-border-radius: 10px; border-radius:10px; background-color:rgba(0,0,0,0.6) !important; background-color:#000000;  behavior: url(../js/ie-css3.htc); }
+#Classes DIV.middlecontainer DIV.dotimg { width:90px; height:110px; margin:5px 0px 0px 10px; padding:0px; background-position:center bottom; background-repeat:no-repeat; background-image:url(../img/index_22_alchemist_out.png); }
+#Classes DIV.middlecontainer DIV.jobinformation { width:450px; height:auto; margin:10px 0px 0px 10px; padding:0px; color: #99FFFF; }
+#Classes DIV.middlecontainer DIV.jobinformation02 { width:570px; height:auto; margin:10px 10px 0px 10px; padding:0px; color: #99FFFF; }
+#Classes DIV.middlecontainer DIV.jobinformation02 DIV.thumbnail02 { width:160px; height:auto; margin:10px 0px 0px 0px; float:left; }
+#Classes DIV.middlecontainer DIV.jobinformation02 DIV.detail02 { width:360px; height:auto; margin:10px 0px 0px 10px; }
+#Classes DIV.bottomcontainer { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.bottomcontainer DIV.section { width:300px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.bottomcontainer DIV.section02 { width:300px; height:auto; margin:10px 0px; padding:0px; }
+#Classes DIV.bottomcontainer DIV.section03 { width:600px; height:auto; margin:10px 0px; padding:0px; }
+#Classes DIV.bottomcontainer DIV.section04 { width:560px; height:auto; margin:10px 18px; padding:0px; }
+#Classes DIV.bottomcontainer DIV.section DIV.img01 { width:300px; height:210px; padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section DIV.img02 { width:300px; height:210px; padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section DIV.img03 { width:300px; height:210px; padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section DIV.img04 { width:300px; height:210px; padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section02 DIV.img05 { padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.img06 { padding:0px; margin:0px; }
+#Classes DIV.bottomcontainer DIV.section04 DIV.img07 { padding:0px; margin:0px 0px; }
+#Classes DIV.bottomcontainer DIV.section DIV.counter { width:25px; height:10px; padding:0px; margin:0px 5px 0px 18px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section02 DIV.counter02 { width:25px; height:10px; padding:0px; margin:0px 5px 0px 10px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.counter03 { width:25px; height:10px; padding:0px; margin:0px 5px 0px 10px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.counter04 { width:300px; height:10px; padding:0px; margin:0px 5px 0px 10px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.counter06 { width:300px; height:10px; padding:0px; margin:0px 5px 0px 10px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section04 DIV.counter05 { width:300px; height:10px; padding:0px; margin:0px 5px 0px 0px; font-size:14px; color:#FF9900; font-weight:bold; }
+#Classes DIV.bottomcontainer DIV.section DIV.sectiontext01 { width:250px; height:auto; margin:0px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section DIV.sectiontext02 { width:250px; height:auto; margin:0px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section DIV.sectiontext03 { width:250px; height:auto; margin:0px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section DIV.sectiontext04 { width:250px; height:auto; margin:0px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section02 DIV.textbox { width:130px; height:auto; margin:10px 0px 0px 10px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.textbox02 { width:250px; height:auto; margin:10px 0px 0px 10px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.textbox03 { width:400px; height:auto; margin:10px 0px 0px 10px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section03 DIV.textbox04 { width:580px; height:auto; margin:10px 10px 0px 10px; padding:0px; color:#CCCCCC; }
+#Classes DIV.bottomcontainer DIV.section04 DIV.textbox05 { width:560px; height:auto; margin:10px 10px 0px 0px; padding:0px; color:#CCCCCC; }
+#Classes DIV.topcontainer DIV.skillcontainer { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillheader { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillheader DIV.skillicon { width:24px; height:24px; margin:0px 4px; padding:0px; background-color:#FFFFFF; border:solid 1px #FF9900; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillheader DIV.skillicon IMG { width:24px; height:24px; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillheader DIV.skillname { width:auto; height:16px; margin:2px 4px; padding:0px; font-size:18px; font-weight:bold; color:#FFCC00;}
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillheader DIV.skillstat { width:65px; height:13px; margin:7px 2px 0px 2px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents { width:600px; height:auto; margin:5px 0px 15px 0px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.img { width:auto; height:auto; margin:5px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.summary { width:420px; height:auto; margin:5px; padding:0px; font-size:11px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.chart { width:590px; height:auto; margin:0px 5px; padding:0px; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.chart TABLE { width:100%; height:auto; border-collapse:separate; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.chart TR,TD { width:auto; height:auto;   }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.skillcontents DIV.chart DIV {text-align:center; float:none; }
+#Classes DIV.topcontainer DIV.skillcontainer DIV.topbtn { width:600px; height:16px; margin:0px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center; text-align:right; }
+#Classes DIV.topcontainer DIV.bonusstat { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.bonusstat DIV.introcontainer { width:600px; height:auto; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.bonusstat DIV.introcontainer DIV.icon { width:80px; height:24px; margin:0px; padding:0px; }
+#Classes DIV.topcontainer DIV.bonusstat DIV.introcontainer DIV.name { width:80px; height:16px; margin:3px; padding:0px; font-size:14px; font-weight:bold; }
+#Classes DIV.topcontainer DIV.bonusstat DIV.introcontainer DIV.text { width:420px; height:auto; margin:5px; padding:0px; font-size:11px; color:#CCCCCC; }
+#Classes DIV.topcontainer DIV.bonusstat DIV.table { width:600px; height:auto; margin:2px 0px; padding:0px; }
+#Classes DIV.notice { width:600px; height:14px; margin:0px; padding:10px 0px 0px 0px; color:#FF0000; text-align:center; }
+#Classes DIV.blankcontent { width:600px; height:400px; margin:0px; padding:0px; background-image:url(../img/bg_notavailable.png); background-position:center; background-repeat:no-repeat; }
+
+
+#News A { color:#FFFFFF; }
+#News A:hover { color:#FFCC00; }
+#News DIV { float:left; margin:0px; padding:0px; }
+#News DIV.newstitle { width:600px; height:50px; margin:10px 0px 5px 0px; padding:0px; background-image:url(../img/bg_title.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:12px; }
+#News DIV.newstitle DIV.title { width:440px; height:15px; margin:17px 0px 0px 55px; font-weight:bold; }
+#News DIV.newstitle DIV.date { width:65px; height:15px; margin:17px 0px 0px 10px; }
+#News DIV.newscontentborder { width:588px; height:auto; margin:0px 6px; padding:0px; background-color:#FFFFFF; /* filter:alpha(opacity=90); -moz-opacity:0.9; opacity: 0.9; */ }
+#News DIV.newscontent {width:576px; height:auto; margin:6px; padding:0px; color:#FFF; font-size:12px; }
+#News DIV.newscontent A { color:#0099FF; margin:0px 5px; }
+#News DIV.newscontent A:hover { color:#000066; }
+#News DIV.newscontent SPAN { font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+#News DIV.newscontent IMG { max-width:576px; height:auto; }
+#News DIV.newscontent TABLE { width:100%; height:auto; border-collapse:separate; margin:0px; padding:0px; }
+#News DIV.newscontent TBODY { width:100%; height:auto; border-collapse:separate; margin:0px; padding:0px; }
+#News DIV.newscontent TD,TR,TH { width:auto; height:auto; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px; }
+#News DIV.newscontent FONT { width:auto; height:auto; margin-left:0px; margin-right:0px; padding-left:10px; padding-right:10px; }
+#News DIV.newscontent2 {width:576px; height:auto; margin:6px 12px; padding:0px; color:#FFF; font-size:12px; }
+#News DIV.newscontent2 IMG { max-width:576px; height:auto; margin:5px 10px 5px 0px;  }
+#News DIV.newscontent2 TABLE { width:100%; height:auto; border-collapse:separate; }
+#News DIV.newscontent2 TBODY { width:100%; height:auto; border-collapse:separate; }
+#News DIV.newscontent2 TD,TR,TH { width:auto; height:auto; }
+#News DIV.newscontent2 A { color:#00FFFF; margin:0px 5px 0px 0px; padding:0px; text-decoration:underline; font-weight:bold; }
+#News DIV.newscontent2 A:hover { color:#FF9900; }
+#News DIV.newscontent2 FONT { color:#0099FF; }
+#News DIV.newsline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#News DIV.prevnextbtncontainer { width:428px; height:18px; margin:0px; font-size:10px; }
+#News DIV.prevnextbtncontainer DIV.btn { width:35px; height:15px; margin:1px 0px; padding:0px; }
+#News DIV.prevnextbtncontainer DIV.title { width:auto; height:15px; margin:3px 2px 0px 4px; padding:0px; font-size:10px; }
+#News DIV.prevnextbtncontainer DIV.date { width:40px; height:15px; margin:3px 0px 0px 2px; padding:0px; font-size:10px; }
+#News DIV.backtolist { width:152px; height:27px; margin:0px 10px; float:right; }
+#News DIV.newstitleheader { width:600px; height:50px; margin:10px 0px 10px 0px; padding:0px; background-image:url(../img/bg_title_nobullet.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:14px; }
+#News DIV.newstitleheader DIV.title { width:400px; height:15px; margin:17px 0px 0px 0px; font-weight:bold; text-align:center; }
+#News DIV.newstitleheader DIV.hits { width:90px; height:15px; margin:17px 0px 0px 0px; font-weight:bold; text-align:center; }
+#News DIV.newstitleheader DIV.date { width:80px; height:15px; margin:17px 30px 0px 0px; font-weight:bold; text-align:center; }
+#News DIV.newslists { width:600px; height:24px; padding:0px; margin:0px 0px 10px 0px ; background-image:url(../img/bg_newslists.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:12px; }
+#News DIV.newslists DIV.title { width:345px; height:15px; margin:4px 0px 0px 55px; }
+#News DIV.newslists DIV.hits { width:90px; height:15px; margin:4px 0px 0px 0px; text-align:center; }
+#News DIV.newslists DIV.date { width:80px; height:15px; margin:4px 30px 0px 0px; text-align:center; }
+#News DIV.newslistsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+#News DIV.newslistsCounts A { display:inline; color:#FFFFFF; }
+
+#Movies DIV { float:left; margin:0px; padding:0px; }
+#Movies DIV.movieframe { width:549px; height:423px; margin:10px 0px 0px 26px; padding:0px; background-image:url(../img/bg_movie.png); }
+#Movies DIV.movieframe DIV.movie { width:484px; height:300px; margin:93px 0px 0px 34px; padding:0px; text-align:center; }
+#Movies DIV.listContainer { width:580px; height:auto; margin:10px 0px 0px 10px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Movies DIV.listContainer DIV.banner { width:140px; height:100px; margin:10px 10px 15px 10px; padding:0px; }
+#Movies DIV.listContainer DIV.banner A{ width:140px; height:100px; display:block; border:solid 2px #000000; }
+#Movies DIV.listContainer DIV.banner IMG { width:140px; height:100px; margin:0px; padding:0px; }
+#Movies DIV.listContainer DIV.banner A:hover{ border:solid 2px #00FFFF; }
+#Movies DIV.listContainer DIV.title { width:350px; height:15px; margin:10px 10px 5px 10px; padding:0px; font-size:14px; font-weight:bold; color:#FFFFFF; }
+#Movies DIV.listContainer DIV.detail { width:350px; height:auto; margin:5px 10px; padding:0px; font-size:12px; color:#66FFFF; }
+#Movies DIV.contentline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Movies DIV.listsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+
+#Wallpapers DIV { float:left; margin:0px; padding:0px; }
+#Wallpapers DIV.listContainer { width:200px; height:auto; margin:0px 0px 10px 0px; padding:0px; background-image:url(../img/bg_wallpaperThumb.png); background-position:center; background-repeat:no-repeat; }
+#Wallpapers DIV.listContainer DIV.thumb { width:168px; height:126px; margin:20px 15px 24px 17px; padding:0px; }
+#Wallpapers DIV.listContainer DIV.thumb IMG { width:168px; height:126px; margin:10px 0px 0px 0px; padding:0px; }
+#Wallpapers DIV.listContainer DIV.blank { width:10px; height:23px; margin:0px;  padding:0px; }
+#Wallpapers DIV.listContainer DIV.btn { width:auto; height:23px; margin:0px;  padding:0px; }
+#Wallpapers DIV.contentline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Wallpapers DIV.listsCounts { width:600px; height:12px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+
+#Clientdownload DIV { float:left; margin:0px; padding:0px; }
+#Clientdownload DIV.top { width:600px; height:178px; margin:0px; padding:0px; background-image:url(../img/bg_downloadtop.png); background-position:top center; background-repeat:no-repeat; }
+#Clientdownload DIV.top A { width:170px; height:50px; margin:80px 0px 0px 120px; padding:0px; float:left; display:block; }
+#Clientdownload DIV.helpbutton { width:600px; height:auto; margin:0px; padding:0px; text-align:center; }
+#Clientdownload DIV.helpbutton A { width:600px; height:100%; margin:0px; padding:0px; display:block; float:left; }
+#Clientdownload DIV.header DIV.bullet { width:37px; height:22px; margin:5px 0px; background-image:url(../img/icon_bullet.png); }
+#Clientdownload DIV.header DIV.title { width:540px; height:26px; margin:2px 0px 5px 10px; font-size:20px; font-weight:bold; color:#FFFFFF; }
+#Clientdownload DIV.clientdownload { width:560px; height:auto; margin:0px 20px; padding:0px; font-size:12px; color:#FFFFFF; }
+#Clientdownload DIV.clientdownload DIV.title { width:300px; height:24px; margin:10px 0px 5px 0px; padding:0px; font-size:24px; font-weight:bold; color:#FF9000; }
+#Clientdownload DIV.clientdownload DIV.detail { width:300px; height:auto; margin:5px 0px 5px 0px; padding:0px; }
+#Clientdownload DIV.clientdownload DIV.released  { width:320px; height:auto; margin:5px 0px 0px 0px; padding:0px; font-weight:bold; color:#00C6FF; }
+#Clientdownload DIV.clientdownload DIV.btnA { width:200px; height:auto; margin:10px 0px 0px 0px; padding:0px; float:right; }
+#Clientdownload DIV.clientdownload DIV.btnB { width:235px; height:auto; margin:20px 0px 10px 0px; padding:0px; float:right; }
+#Clientdownload DIV.systemrequirement { width:600px; height:auto; margin:0px; padding:0px; }
+#Clientdownload DIV.systemrequirement TABLE { background-color:#999999; }
+#Clientdownload DIV.systemrequirement TD.title { height:24px; font-size:12px; font-weight:bold; color:#00C6FF; text-align:center; background-color:#0B252A; }
+#Clientdownload DIV.systemrequirement TD.detail { font-size:12px; color:#FFFFFF; text-align:center; background-color:#133D46; }
+#Clientdownload DIV.directx { width:560px; height:auto; margin:0px 20px; padding:0px; font-size:12px; color:#FFFFFF; }
+#Clientdownload DIV.directx DIV.detail { width:340px; height:20px; margin:15px 0px; padding:0px; }
+#Clientdownload DIV.directx DIV.btn { width:200px; height:60; margin:0px 0px 0px 20px; padding:0px; }
+#Clientdownload DIV.blank { width:600px; height:15px; margin:0px; }
+
+#Fansites DIV { float:left; margin:0px; padding:0px; }
+#Fansites DIV.listContainer { width:580px; height:auto; margin:10px 0px 0px 10px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Fansites DIV.listContainer DIV.banner { width:160px; height:40px; margin:10px 10px 10px 0px; padding:0px; }
+#Fansites DIV.listContainer DIV.banner A{ width:160px; height:40px; display:block; border:solid 1px #999999; background-color:#000000; }
+#Fansites DIV.listContainer DIV.banner IMG { width:158px; height:38px; margin:1px; padding:0px; }
+#Fansites DIV.listContainer DIV.banner A:hover{ border:solid 1px #00FFFF; background-color:#00FFFF; }
+#Fansites DIV.listContainer DIV.title { width:390px; height:15px; margin:10px 0px 5px 10px; padding:0px; font-size:14px; font-weight:bold; color:#FFCC00; }
+#Fansites DIV.listContainer DIV.detail { width:390px; height:40px; margin:0px 0px 0px 10px; padding:0px; font-size:12px; color:#66FFFF; }
+#Fansites DIV.contentline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Fansites DIV.listsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+#Fansites DIV.bullet { width:37px; height:20px; margin:17px 0px 0px 0px; background-image:url(../img/icon_bullet2.png); }
+#Fansites DIV.text { width:255px; height:40px; margin:18px 10px 0px 10px; font-size:14px; font-style:italic; color:#66FFFF; }
+#Fansites DIV.btn { width:235px; height:60px; margin:8px 0px 0px 10px; }
+#Fansites DIV.blank { width:580px; height:5px; margin:0px; }
+#Fansites DIV.application DIV.content { width:600px; height:500px; margin:30px 0px 10px 0px; padding:0px; background-image:url(../img/bg_fansitesApplication.png); }
+#Fansites DIV.application DIV.content A { width:290px; height:30px; margin:454px 0px 0px 40px; padding:0px; display:block; float:left; }
+#Fansites DIV.backtolist { width:152px; height:27px; margin:0px 10px 20px 10px; float:right; }
+
+
+#Skins DIV { float:left; margin:0px; padding:0px; }
+#Skins DIV.listContainer { width:580px; height:auto; margin:10px 0px 0px 10px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Skins DIV.listContainer DIV.banner { width:280px; height:130px; margin:10px 10px 0px 0px; padding:0px; }
+#Skins DIV.listContainer DIV.banner A{ width:280px; height:130px; display:block; border:solid 1px #999999; background-color:#000000; }
+#Skins DIV.listContainer DIV.banner IMG { width:278px; height:128px; margin:1px; padding:0px; }
+#Skins DIV.listContainer DIV.banner A:hover{ border:solid 1px #00FFFF; background-color:#00FFFF; }
+#Skins DIV.listContainer DIV.title { width:240px; height:22px; margin:13px 0px 5px 10px; padding:0px; font-size:14px; font-weight:bold; color:#FFCC00; border-bottom:dotted 1px #999999; }
+#Skins DIV.listContainer DIV.flag { width:40px; height:25px; margin:10px 0px 5px 0px; padding:0px; border-bottom:dotted 1px #999999; }
+#Skins DIV.listContainer DIV.flag IMG { width:40px; height:22px; margin:0px; padding:0px; }
+#Skins DIV.listContainer DIV.zip { width:200px; height:22px; margin:5px 0px 0px 10px; padding:0px; border-bottom:dotted 1px #999999; color:#00FFFF; font-size:12px; }
+#Skins DIV.listContainer DIV.filesize { width:80px; height:22px; margin:5px 0px 0px 0px; padding:0px; border-bottom:dotted 1px #999999; color:#00FFFF; font-size:12px; font-weight:bold; text-align:right; }
+#Skins DIV.listContainer DIV.detail { width:280px; min-height:75px; margin:10px 0px 5px 10px; padding:0px; font-size:12px; color:#66FFFF; }
+#Skins DIV.contentline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Skins DIV.listsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+#Skins DIV.bullet { width:22px; height:15px; margin:17px 0px 0px 10px; background-image:url(../img/icon_bullet.png); }
+#Skins DIV.text { width:260px; height:40px; margin:15px 10px 0px 10px; font-size:14px; font-style:italic; color:#66FFFF; }
+#Skins DIV.btn { width:235px; height:60px; margin:8px 0px 0px 10px; }
+#Skins DIV.blank { width:580px; height:5px; margin:0px; }
+#Skins DIV.application DIV.content { width:600px; height:500px; margin:30px 0px 10px 0px; padding:0px; background-image:url(../img/bg_fansitesApplication.png); }
+#Skins DIV.application DIV.content A { width:290px; height:30px; margin:454px 0px 0px 40px; padding:0px; display:block; float:left; }
+#Skins DIV.backtolist { width:152px; height:27px; margin:0px 10px 20px 10px; float:right; }
+
+
+#Hallofhonor A { display:block; color:#FFFFFF; }
+#Hallofhonor A:hover { color:#FFCC00; }
+#Hallofhonor DIV { float:left; margin:0px; padding:0px; }
+#Hallofhonor DIV.newstitle { width:600px; height:50px; margin:10px 0px 5px 0px; padding:0px; background-image:url(../img/bg_title.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:12px; }
+#Hallofhonor DIV.newstitle DIV.server { width:60px; height:15px; margin:17px 0px 0px 55px; font-weight:bold; }
+#Hallofhonor DIV.newstitle DIV.character { width:240px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; color:#00FFFF; }
+#Hallofhonor DIV.newstitle DIV.class { width:120px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newstitle DIV.date { width:65px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newscontentborder { width:588px; height:auto; margin:0px 6px; padding:0px; background-color:#FFFFFF; }
+#Hallofhonor DIV.newscontent {width:576px; height:auto; margin:6px; padding:0px; color:#333333; font-size:12px; background-color:#FFFFFF; color:#333333; }
+#Hallofhonor DIV.newscontent IMG { max-width:576px; height:auto; margin:0px; padding:0px;}
+#Hallofhonor DIV.newscontent TABLE { width:100%; height:auto; border-collapse:separate; margin:0px; padding:0px; }
+#Hallofhonor DIV.newscontent TBODY { width:100%; height:auto; border-collapse:separate; margin:0px; padding:0px; }
+#Hallofhonor DIV.newscontent TD,TR,TH { width:auto; height:auto; margin-left:0px; margin-right:0px; padding-left:0px; padding-right:0px; }
+#Hallofhonor DIV.newscontent FONT { width:auto; height:auto; margin-left:0px; margin-right:0px; padding-left:10px; padding-right:10px;  }
+#Hallofhonor DIV.newscontent H3,H2,H1 { width:auto; height:auto; margin:5px 0px; padding:0px; color:#006699; font-size:18px; font-weight:bold; line-height:normal; }
+#Hallofhonor DIV.newsline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Hallofhonor DIV.newscontent A { width:auto; height:auto; margin:0px; padding:0px; }
+#Hallofhonor DIV.backtolist { width:152px; height:27px; margin:0px 10px; float:right; }
+#Hallofhonor DIV.newstitleheader { width:600px; height:50px; margin:10px 0px 10px 0px; padding:0px; background-image:url(../img/bg_title_nobullet.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:14px; }
+#Hallofhonor DIV.newstitleheader DIV.server { width:100px; height:15px; margin:17px 0px 0px 40px; font-weight:bold; }
+#Hallofhonor DIV.newstitleheader DIV.character { width:160px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newstitleheader DIV.class { width:95px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newstitleheader DIV.hits { width:70px; height:15px; margin:17px 0px 0px 20px; font-weight:bold; }
+#Hallofhonor DIV.newstitleheader DIV.date { width:65px; height:15px; margin:17px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newslists { width:600px; height:24px; padding:0px; margin:0px 0px 10px 0px ; background-image:url(../img/bg_newslists.png); background-position:top; background-repeat:no-repeat; color:#FFFFFF; font-size:12px; }
+#Hallofhonor DIV.newslists DIV.server { width:50px; height:15px; margin:4px 0px 0px 55px; }
+#Hallofhonor DIV.newslists DIV.character { width:190px; height:15px; margin:4px 0px 0px 10px; font-weight:bold; }
+#Hallofhonor DIV.newslists DIV.character A { color:#00FFFF; }
+#Hallofhonor DIV.newslists DIV.character A:hover { color:#FFFF00; }
+#Hallofhonor DIV.newslists DIV.class { width:110px; height:15px; margin:4px 0px 0px 10px; }
+#Hallofhonor DIV.newslists DIV.hits { width:60px; height:15px; margin:4px 0px 0px 10px; }
+#Hallofhonor DIV.newslists DIV.date { width:65px; height:15px; margin:4px 0px 0px 10px; }
+#Hallofhonor DIV.newslistsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; }
+#Hallofhonor DIV.newslistsCounts A { display:inline; color:#FFFFFF;}
+
+
+#Itemmall DIV { float:left; margin:0px; padding:0px; }
+#Itemmall DIV.hotitem { width:600px; height:200px; margin:10px 0px 0px 0px; padding:0px; background-image:url(../img/bg_hotitems.png); background-position:top; background-repeat:no-repeat; }
+#Itemmall DIV.hotitem DIV.listContainer { width:148px; height:200px; margin:0px; padding:0px; }
+#Itemmall DIV.hotitem DIV.listContainer DIV.img { width:90px; height:90px; margin:45px 0px 0px 29px; padding:0px; }
+#Itemmall DIV.hotitem DIV.listContainer DIV.name { width:120px; height:30px; margin:0px 0px 0px 14px; padding:0px; text-align:center; font-size:10px; color:#261B15; }
+#Itemmall DIV.hotitem DIV.listContainer DIV.price { width:90px; height:16px; margin:5px 0px 0px 29px; padding:0px; text-align:center; font-weight:bold; font-size:12px; color:#0033FF; }
+#Itemmall DIV.tab { width:600px; height:59px; margin:0px; padding:0px; }
+#Itemmall DIV.tab DIV.tabblank { width:10px; height:59px; margin:0px; padding:0px; }
+#Itemmall DIV.tab DIV.tab { width:82px; height:34px; margin:25px 1px 0px 0px; padding:0px; }
+#Itemmall DIV.tab DIV.tab A { width:82px; height:34px; display:block; color:#999999; background-image:url(../img/btn_tab_out.png); background-position:top center; background-repeat:no-repeat; text-align:center; font-size:12px; font-weight:bold; }
+#Itemmall DIV.tab DIV.tab A DIV.title { width:82px; height:19px; margin:15px 0px 0px 0px; padding:0px; }
+#Itemmall DIV.tab DIV.tab A.here { color:#000099; background-image:url(../img/btn_tab_over.png); }
+#Itemmall DIV.tab DIV.tab A.here DIV.title { width:82px; height:22px; margin:12px 0px 0px 0px; padding:0px; }
+#Itemmall DIV.tab DIV.tab A:hover { color:#00FFFF; }
+#Itemmall DIV.itemlists { width:580px; height:auto; margin:0px 0px 0px 10px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer { width:280px; height:130px; margin:4px 4px 4px 4px; padding:0px; border: dotted 1px #466273; background-color:#000000; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.img { width:70px; height:70px; margin:10px 0px 0px 10px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.img IMG { width:70px; height:70px; margin:0px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.img A { width:70px; height:70px; margin:0px; padding:0px; display:block; border: solid 3px #000000;  }
+#Itemmall DIV.itemlists DIV.listContainer DIV.img A:hover { border: solid 3px #00FFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.name { width:175px; height:auto; margin:10px 0px 0px 15px; padding:0px; font-weight:bold; font-size:12px; color:#FFCC00; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.price { width:175px; height:auto; margin:4px 0px 0px 15px; padding:0px; font-weight:bold; font-size:12px; color:#FFFFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.price SPAN.dc { font-size:14px; margin:0px 0px 0px 4px; font-weight:bold; color:#00FFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.price SPAN.permanent { font-size:12px; font-weight:bold; margin:0px; color:#00FFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.price SPAN.black { font-weight:normal; font-size:11px; margin:0px; color:#FF6600; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.detail { width:175px; height:auto; margin:4px 0px 4px 15px; padding:0px; font-size:11px; color:#999999; }
+
+#Itemmall DIV.contentline { width:600px; height:2px; margin:4px 0px; padding:0px; background-image:url(../img/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Itemmall DIV.itemlistsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; font-weight:bold; }
+
+#Iteminfo DIV { float:left; margin:0px; padding:0px; }
+#Iteminfo DIV.itemdetail { width:600px; height:auto; margin:10px 0px 0px 0px; padding:0px;}
+#Iteminfo DIV.itemdetail DIV.imgcontainer { width:180px; height:200px; margin:0px; padding:0px; background-image:url(../img/bg_itemdetail.png); background-position:center;  background-repeat:no-repeat; }
+#Iteminfo DIV.itemdetail DIV.imgcontainer DIV.img { width:90px; height:auto; margin:46px 0px 0px 43px; padding:0px; }
+#Iteminfo DIV.itemdetail DIV.imgcontainer DIV.img IMG { width:90px; height:auto; max-height:114px; margin:0; padding:0; }
+#Iteminfo DIV.itemdetail DIV.name { width:310px; height:auto; margin:20px 0px 0px 15px; padding:0px; font-weight:bold; font-size:16px; color:#FF9900; }
+#Iteminfo DIV.itemdetail DIV.price { width:310px; height:auto; margin:12px 0px 0px 15px; padding:0px; font-weight:bold; font-size:20px; color:#00FFFF; }
+#Iteminfo DIV.itemdetail DIV.price SPAN.white { margin:0px 5px; font-weight:bold; font-size:12px; color:#FFFFFF; }
+#Iteminfo DIV.itemdetail DIV.duration { width:310px; height:auto; margin:12px 0px 0px 15px; padding:0px; font-weight:bold; font-size:14px; color:#33FF99; }
+#Iteminfo DIV.itemdetail DIV.duration SPAN.white { margin:0px 5px; font-weight:bold; font-size:12px; color:#FFFFFF; }
+#Iteminfo DIV.itemdetail DIV.detail { width:300px; height:auto; margin:20px 0px 0px 20px; padding:0px; font-size:12px; color:#CCCCCC; }
+#Iteminfo DIV.itemdetail DIV.detail2 { width:560px; height:auto; margin:20px 0px 20px 20px; padding:0px; }
+#Iteminfo DIV.itemdetail DIV.detail2 TABLE,TD,TR { font-size:12px; color:#CCCCCC; background-color:none; height:auto; width:auto; }
+#Iteminfo DIV.itemdetail DIV.detail2 IMG { width:auto; height:auto; max-width:500px; margin:0px 20px 0px 0px; padding:0px; border:1px solid #999; }
+#Iteminfo DIV.itemmallline { width:600px; height:15px; margin:15px 0px 0px 0px; background-image:url(../img/mc_contentLine.png); }
+#Iteminfo DIV.backtolist { width:152px; height:27px; margin:0px 10px 20px 10px; float:right; }
+
+#Itemmall DIV.itemlists DIV.listContainer DIV.cardContainer { width:72px; height:110px; margin:10px 0px 0px 10px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.cardTitle { width:430px; height:30px; margin:10px 0px 0px 10px; padding:0px; color:#FFCC00; font-size:14px; font-weight:bold;  }
+#Itemmall DIV.itemlists DIV.listContainer DIV.prefixContainer { width:430px; height:20px; margin:0px 0px 0px 10px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.prefixContainer DIV.title { width:90px; height:100%; margin:0px; padding:0px; font-weight:bold; color:#FFFFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.prefixContainer DIV.detail { width:340px; height:auto; margin:0; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.description { width:430px; height:auto; margin:0px 0px 0px 10px; padding:0px; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.description DIV.title { width:90px; height:100%; margin:0px; padding:0px; font-weight:bold; color:#FFFFFF; }
+#Itemmall DIV.itemlists DIV.listContainer DIV.description DIV.detail { width:340px; height:auto; margin:0px; padding:0px; }
+
+#Cards DIV { float:left; margin:0px; padding:0px; }
+#Cards DIV.hotitem { width:600px; height:200px; margin:10px 0px 0px 0px; padding:0px; background-image:url(../img/bg_hotitems.png); background-position:top; background-repeat:no-repeat; }
+#Cards DIV.hotitem DIV.listContainer { width:148px; height:200px; margin:0px; padding:0px; }
+#Cards DIV.tab { width:600px; height:59px; margin:0px; padding:0px; }
+#Cards DIV.tab DIV.tabblank { width:10px; height:59px; margin:0px; padding:0px; }
+#Cards DIV.tab DIV.tab { width:82px; height:34px; margin:25px 1px 0px 0px; padding:0px; }
+#Cards DIV.tab DIV.tab A { width:82px; height:34px; display:block; color:#999999; background-image:url(../img/btn_tab_out.png); background-position:top center; background-repeat:no-repeat; text-align:center; font-size:12px; font-weight:bold; }
+#Cards DIV.tab DIV.tab A DIV.title { width:82px; height:19px; margin:15px 0px 0px 0px; padding:0px; }
+#Cards DIV.tab DIV.tab A.here { color:#000099; background-image:url(../img/btn_tab_over.png); }
+#Cards DIV.tab DIV.tab A.here DIV.title { width:82px; height:22px; margin:12px 0px 0px 0px; padding:0px; }
+#Cards DIV.tab DIV.tab A:hover { color:#00FFFF; }
+#Cards DIV.itemlists { width:580px; height:auto; margin:0px 0px 0px 10px; padding:0px; }
+#Cards DIV.itemlists DIV.listContainer { width:280px; height:auto; margin:4px 4px 4px 4px; padding:0px 0px 10px 0px; border: dotted 1px #466273; background-color:#000000; }
+#Cards DIV.itemlists DIV.listContainer DIV.cardContainer { width:72px; height:110px; margin:10px 0px 0px 10px; padding:0px; }
+#Cards DIV.itemlists DIV.listContainer DIV.cardTitle { width:430px; height:30px; margin:10px 0px 0px 10px; padding:0px; color:#FFCC00; font-size:14px; font-weight:bold;  }
+#Cards DIV.itemlists DIV.listContainer DIV.prefixContainer { width:430px; height:20px; margin:0px 0px 0px 10px; padding:0px; }
+#Cards DIV.itemlists DIV.listContainer DIV.prefixContainer DIV.title { width:90px; height:100%; margin:0px; padding:0px; font-weight:bold; color:#FFFFFF; }
+#Cards DIV.itemlists DIV.listContainer DIV.prefixContainer DIV.detail { width:340px; height:auto; margin:0; padding:0px; font-size:11px; color:#999999; }
+#Cards DIV.itemlists DIV.listContainer DIV.description { width:430px; height:auto; margin:0px 0px 0px 10px; padding:0px; }
+#Cards DIV.itemlists DIV.listContainer DIV.description DIV.title { width:90px; height:100%; margin:0px; padding:0px; font-weight:bold; color:#FFFFFF; }
+#Cards DIV.itemlists DIV.listContainer DIV.description DIV.detail { width:340px; height:auto; margin:0px; padding:0px; font-size:11px; color:#999999; }
+
+#Cards DIV.itemlistsCounts { width:600px; height:27px; margin:0px; text-align:center; font-size:12px; color:#FFFFFF; font-weight:bold; }

@@ -1,0 +1,912 @@
+@charset "utf-8";
+/* Ragnarok Online */
+
+
+#ContentHeader.storyline { background-image:url(../images/master/bg_header_storyline.png); }
+#ContentHeader.premiumservice { background-image:url(../images/master/bg_header_premiumservice.png); }
+#ContentHeader.howtoplay { background-image:url(../images/master/bg_header_howtoplay.png); }
+#ContentHeader.valueadd { background-image:url(../images/master/bg_header_valueadd.png); }
+#ContentHeader.features { background-image:url(../images/master/bg_header_featuers.png); }
+#ContentHeader.vippackage { background-image:url(../images/master/bg_header_vippackage.png); }
+
+#Howtoplay A { display:block; color:#FFFFFF; }
+#Howtoplay A:hover { color:#FFCC00; }
+#Howtoplay DIV { float:left; margin:0px; padding:0px; }
+#Howtoplay DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Howtoplay DIV.container DIV.title { width:600px; height:25px; margin:10px 0px; padding-left:45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Howtoplay DIV.container DIV.title02 { width:380px; height:auto; margin:5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Howtoplay DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Howtoplay DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; padding:0px; padding-right:5px; float:left; }
+#Howtoplay DIV.container DIV.content01 { width:146px; height:416px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/menu_beginerguide.jpg); }
+#Howtoplay DIV.container DIV.content02 { width:146px; height:416px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/menu_basicsystem.jpg); }
+#Howtoplay DIV.container DIV.content03 { width:146px; height:416px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/menu_interface.jpg); }
+#Howtoplay DIV.container DIV.content04 { width:146px; height:416px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/menu_gameplay.jpg); }
+#Howtoplay DIV.container DIV.textbox01{ width:140px; height:104px; margin:307px 2px 0px 2px; padding:0px; }
+#Howtoplay DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Howtoplay DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Howtoplay DIV.container DIV.textbox02{ width:140px; height:104px; margin:307px 2px 0px 2px; padding:0px; }
+#Howtoplay DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Howtoplay DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Howtoplay DIV.container DIV.textbox03{ width:140px; height:104px; margin:307px 2px 0px 2px; padding:0px; }
+#Howtoplay DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Howtoplay DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Howtoplay DIV.container DIV.textbox04{ width:140px; height:104px; margin:307px 2px 0px 2px; padding:0px; }
+#Howtoplay DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Howtoplay DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Howtoplay DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Howtoplay DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Storyline DIV { float:left; margin:0px; padding:0px; }
+#Storyline DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Storyline DIV.container DIV { margin:0px; }
+#Storyline DIV.container DIV.detail { width:580px; height:auto; margin:5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Storyline DIV.container DIV.detail DIV.thumbnail { margin:0px 0px 10px 0px; padding:0px; padding-right:5px; float:left; }
+#Storyline DIV.container DIV.detail DIV.story { margin:0px 0px 0px 10px; padding:0px; }
+#Storyline DIV.container DIV.detail DIV.story P{ margin:0px 0px 0px 0px 10px; padding:0px; font-size:14px; font-style:italic; line-height:16px; }
+#Storyline DIV.container DIV.detail DIV.story P:first-letter { float:left; font-size:44px; font-weight:bold; margin:0px 6px 0px 0px; }
+#Storyline DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+
+
+
+/* Start 'Free to Play' Update Content (03312011 ) */
+
+
+#Beginnerguide02 DIV.container DIV.detail DIV.title-01 { width:500px; height:auto; margin:0px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide02 DIV.container DIV.detail DIV.textbox-01 { width:580px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.detail DIV.thumbnail-01 { width:600px; margin:10px 0px; padding:0px; text-align:center; float:left; }
+#Beginnerguide02 DIV.container DIV.blank-01 { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.underline-01 { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+#Beginnerguide03 DIV.container DIV.detail DIV.title-01 { width:500px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide03 DIV.container DIV.detail DIV.textbox-01 { width:580px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide03 DIV.container DIV.detail DIV.thumbnail-01 { width:600px; margin:10px 0px; padding:0px; text-align:center; float:left; }
+#Beginnerguide03 DIV.container DIV.blank-01 { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.underline-01 { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+#Beginnerguide04 DIV.container DIV.detail DIV.title-01 { width:500px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide04 DIV.container DIV.detail DIV.textbox-01 { width:580px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide04 DIV.container DIV.detail DIV.thumbnail-01 { width:600px; margin:10px 0px; padding:0px; text-align:center; float:left; }
+#Beginnerguide04 DIV.container DIV.blank-01 { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.underline-01 { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+#Interface01 DIV.container DIV.detail DIV.title-01 { width:500px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface01 DIV.container DIV.detail DIV.textbox-01 { width:580px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface01 DIV.container DIV.detail DIV.thumbnail-01 { width:600px; margin:10px 0px; padding:0px; text-align:center; float:left; }
+#Interface01 DIV.container DIV.blank-01 { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Interface01 DIV.container DIV.underline-01 { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+#Interface03 DIV.container DIV.detail-01 { width:600px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Interface03 DIV.container DIV.detail-01 DIV.title-01 { width:500px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface03 DIV.container DIV.detail-01 DIV.textbox-01 { width:580px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface03 DIV.container DIV.detail-01 DIV.thumbnail-01 { width:600px; margin:10px 0px; padding:0px; text-align:center; float:left; }
+#Interface03 DIV.container DIV.blank-01 { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Interface03 DIV.container DIV.underline-01 { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+/* End 'Free to Play' Update Content (03312011 ) */
+
+
+
+#Beginnerguide01 A { display:block; color:#FFFFFF; }
+#Beginnerguide01 A:hover { color:#FFCC00; }
+#Beginnerguide01 DIV { float:left; margin:0px; padding:0px; }
+#Beginnerguide01 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Beginnerguide01 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Beginnerguide01 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide01 DIV.container DIV.detail DIV.title02 { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide01 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; padding:0px; padding-right:5px; float:left; }
+#Beginnerguide01 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide01 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Beginnerguide01 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Beginnerguide01 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Beginnerguide01 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Beginnerguide01 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide01 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide01 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Beginnerguide01 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide01 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide01 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Beginnerguide01 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide01 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide01 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Beginnerguide01 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide01 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide01 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Beginnerguide01 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide01 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Beginnerguide02 A { display:block; color:#FFFFFF; }
+#Beginnerguide02 A:hover { color:#FFCC00; }
+#Beginnerguide02 DIV { float:left; margin:0px; padding:0px; }
+#Beginnerguide02 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Beginnerguide02 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Beginnerguide02 DIV.container DIV.detail { width:600px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide02 DIV.container DIV.detail DIV.title02 { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide02 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; padding:0px; padding-right:5px; float:left; }
+#Beginnerguide02 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Beginnerguide02 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Beginnerguide02 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Beginnerguide02 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Beginnerguide02 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Beginnerguide02 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Beginnerguide02 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Beginnerguide02 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide02 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Beginnerguide02 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide02 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Beginnerguide03 A { display:block; color:#FFFFFF; }
+#Beginnerguide03 A:hover { color:#FFCC00; }
+#Beginnerguide03 DIV { float:left; margin:0px; padding:0px; }
+#Beginnerguide03 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Beginnerguide03 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 20px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Beginnerguide03 DIV.container DIV.title02 { width:500px; height:auto; margin:5px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide03 DIV.container DIV.title03 { width:300px; height:auto; margin:10px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; float:left; }
+#Beginnerguide03 DIV.container DIV.detail { width:600px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide03 DIV.container DIV.detail02 { width:300px; height:auto; margin:5px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide03 DIV.container DIV.detail03 { width:560px; height:auto; margin:10px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide03 DIV.container DIV.thumbnail01 { width:404px; height:202px; margin:10px 98px; padding:0px; float:left; }
+#Beginnerguide03 DIV.container DIV.thumbnail02 { width:374px; height:266px; margin:10px 113px; padding:0px; float:left; }
+#Beginnerguide03 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Beginnerguide03 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Beginnerguide03 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Beginnerguide03 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Beginnerguide03 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide03 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Beginnerguide03 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide03 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Beginnerguide03 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide03 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Beginnerguide03 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide03 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Beginnerguide03 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Beginnerguide03 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Beginnerguide03 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Beginnerguide04 A { display:block; color:#FFFFFF; }
+#Beginnerguide04 A:hover { color:#FFCC00; }
+#Beginnerguide04 DIV { float:left; margin:0px; padding:0px; }
+#Beginnerguide04 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Beginnerguide04 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Beginnerguide04 DIV.container DIV.title02 { width:500px; height:auto; margin:5px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide04 DIV.container DIV.title03 { width:300px; height:auto; margin:10px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; float:left; }
+#Beginnerguide04 DIV.container DIV.detail { width:600px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide04 DIV.container DIV.detail02 { width:300px; height:auto; margin:5px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide04 DIV.container DIV.detail03 { width:560px; height:auto; margin:10px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide04 DIV.container DIV.thumbnail01 { width:508px; height:383px; margin:10px 46px; padding:0px; float:left; }
+#Beginnerguide04 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Beginnerguide04 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Beginnerguide04 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Beginnerguide04 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Beginnerguide04 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide04 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Beginnerguide04 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide04 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Beginnerguide04 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide04 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Beginnerguide04 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide04 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Beginnerguide04 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Beginnerguide04 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Beginnerguide04 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Beginnerguide05 A { display:block; color:#FFFFFF; }
+#Beginnerguide05 A:hover { color:#FFCC00; }
+#Beginnerguide05 DIV { float:left; margin:0px; padding:0px; }
+#Beginnerguide05 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Beginnerguide05 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Beginnerguide05 DIV.container DIV.title02 { width:560px; height:auto; margin:0px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide05 DIV.container DIV.detail { width:560px; height:auto; margin:5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide05 DIV.container DIV.detail02 { width:560px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Beginnerguide05 DIV.container DIV.detail02 DIV.thumbnail { width:284px; height:124; margin:0px; padding:0px; float:left; }
+#Beginnerguide05 DIV.container DIV.detail02 DIV.title01 { width:258px; height:auto; margin:5px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Beginnerguide05 DIV.container DIV.detail02 DIV.textbox { width:258px; height:auto; margin:5px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Beginnerguide05 DIV.container DIV.thumbnail01 { width:581px; height:355px; margin:5px 9px; padding:0px; float:left; }
+#Beginnerguide05 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Beginnerguide05 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Beginnerguide05 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Beginnerguide05 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Beginnerguide05 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide05 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Beginnerguide05 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide05 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Beginnerguide05 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide05 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Beginnerguide05 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Beginnerguide05 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Beginnerguide05 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.blank02 { width:580px; height:10px; margin:0px; padding:0px; }
+#Beginnerguide05 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Beginnerguide05 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+
+#Basicsystem01 A { display:block; color:#FFFFFF; }
+#Basicsystem01 A:hover { color:#FFCC00; }
+#Basicsystem01 DIV { float:left; margin:0px; padding:0px; }
+#Basicsystem01 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Basicsystem01 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Basicsystem01 DIV.container DIV.title02 { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Basicsystem01 DIV.container DIV.detail { width:600px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Basicsystem01 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; padding:0px; padding-right:5px; float:left; }
+#Basicsystem01 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem01 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Basicsystem01 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Basicsystem01 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Basicsystem01 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Basicsystem01 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem01 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem01 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Basicsystem01 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem01 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem01 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Basicsystem01 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem01 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem01 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Basicsystem01 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem01 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem01 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Basicsystem01 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Basicsystem01 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Basicsystem02 A { display:block; color:#FFFFFF; }
+#Basicsystem02 A:hover { color:#FFCC00; }
+#Basicsystem02 DIV { float:left; margin:0px; padding:0px; }
+#Basicsystem02 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Basicsystem02 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Basicsystem02 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Basicsystem02 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Basicsystem02 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Basicsystem02 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.detail DIV.textbox02 { width:270px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.detail DIV.textbox02 A { color:#00CCFF; }
+#Basicsystem02 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Basicsystem02 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Basicsystem02 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Basicsystem02 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Basicsystem02 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem02 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Basicsystem02 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem02 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Basicsystem02 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem02 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Basicsystem02 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem02 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem02 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Basicsystem02 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Basicsystem02 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Basicsystem03 A { display:block; color:#FFFFFF; }
+#Basicsystem03 A:hover { color:#FFCC00; }
+#Basicsystem03 DIV { float:left; margin:0px; padding:0px; }
+#Basicsystem03 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Basicsystem03 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Basicsystem03 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Basicsystem03 DIV.container DIV.detail DIV.thumbnail { width:580px; height:347; margin:0px; padding:0px; float:left; }
+#Basicsystem03 DIV.container DIV.detail DIV.title02 { width:560px; height:auto; margin:10px 0px 10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Basicsystem03 DIV.container DIV.detail DIV.textbox { width:560px; height:auto; margin:0px 10px 10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem03 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Basicsystem03 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Basicsystem03 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Basicsystem03 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Basicsystem03 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem03 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem03 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Basicsystem03 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem03 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem03 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Basicsystem03 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem03 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem03 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Basicsystem03 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem03 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem03 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Basicsystem03 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Basicsystem03 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Basicsystem03 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Basicsystem04 A { display:block; color:#FFFFFF; }
+#Basicsystem04 A:hover { color:#FFCC00; }
+#Basicsystem04 DIV { float:left; margin:0px; padding:0px; }
+#Basicsystem04 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Basicsystem04 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Basicsystem04 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Basicsystem04 DIV.container DIV.detail DIV.thumbnail { width:580px; height:557; margin:0px; padding:0px; float:left; }
+#Basicsystem04 DIV.container DIV.detail DIV.title02 { width:560px; height:auto; margin:10px 0px 10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Basicsystem04 DIV.container DIV.detail DIV.textbox { width:560px; height:auto; margin:0px 10px 10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem04 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Basicsystem04 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Basicsystem04 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Basicsystem04 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Basicsystem04 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem04 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem04 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Basicsystem04 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem04 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem04 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Basicsystem04 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem04 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem04 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Basicsystem04 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem04 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem04 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Basicsystem04 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Basicsystem04 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Basicsystem04 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Basicsystem05 A { display:block; color:#FFFFFF; }
+#Basicsystem05 A:hover { color:#FFCC00; }
+#Basicsystem05 DIV { float:left; margin:0px; padding:0px; }
+#Basicsystem05 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Basicsystem05 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Basicsystem05 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Basicsystem05 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Basicsystem05 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Basicsystem05 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.detail DIV.textbox02 { width:380px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.detail DIV.textbox03 { width:550px; height:auto; margin:5px 15px 5px 15px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Basicsystem05 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Basicsystem05 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Basicsystem05 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Basicsystem05 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem05 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Basicsystem05 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem05 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Basicsystem05 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem05 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Basicsystem05 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Basicsystem05 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Basicsystem05 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Basicsystem05 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Basicsystem05 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Interface01 A { display:block; color:#FFFFFF; }
+#Interface01 A:hover { color:#FFCC00; }
+#Interface01 DIV { float:left; margin:0px; padding:0px; }
+#Interface01 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Interface01 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Interface01 DIV.container DIV.detail { width:600px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Interface01 DIV.container DIV.detail DIV.thumbnail { width:600px; height:468; margin:0px; padding:0px; text-align:center; float:left; }
+#Interface01 DIV.container DIV.detail DIV.title02 { width:560px; height:auto; margin:10px 0px 10px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface01 DIV.container DIV.detail DIV.textbox { width:560px; height:auto; margin:0px 10px 10px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface01 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Interface01 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Interface01 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Interface01 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Interface01 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface01 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface01 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Interface01 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface01 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface01 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Interface01 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface01 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface01 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Interface01 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface01 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface01 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Interface01 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Interface01 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Interface01 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Interface02 A { display:block; color:#FFFFFF; }
+#Interface02 A:hover { color:#FFCC00; }
+#Interface02 DIV { float:left; margin:0px; padding:0px; }
+#Interface02 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Interface02 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Interface02 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface02 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Interface02 DIV.container DIV.detail DIV.thumbnail { width:320px; margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; text-align:center; }
+#Interface02 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface02 DIV.container DIV.detail DIV.textbox02 { width:200px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface02 DIV.container DIV.detail DIV.textbox03 { width:550px; height:auto; margin:10px 15px 10px 15px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface02 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Interface02 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Interface02 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Interface02 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Interface02 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface02 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface02 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Interface02 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface02 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface02 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Interface02 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface02 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface02 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Interface02 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface02 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface02 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Interface02 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Interface02 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Interface03 A { display:block; color:#FFFFFF; }
+#Interface03 A:hover { color:#FFCC00; }
+#Interface03 DIV { float:left; margin:0px; padding:0px; }
+#Interface03 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Interface03 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Interface03 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface03 DIV.container DIV.detail { width:600px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Interface03 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Interface03 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface03 DIV.container DIV.detail DIV.textbox02 { width:560px; height:auto; margin:0px 10px 10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface03 DIV.container DIV.detail DIV.textbox03 { width:550px; height:auto; margin:10px 15px 10px 15px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface03 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Interface03 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Interface03 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Interface03 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Interface03 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface03 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface03 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Interface03 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface03 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface03 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Interface03 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface03 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface03 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Interface03 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface03 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface03 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Interface03 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Interface03 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Interface05 A { display:block; color:#FFFFFF; }
+#Interface05 A:hover { color:#FFCC00; }
+#Interface05 DIV { float:left; margin:0px; padding:0px; }
+#Interface05 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Interface05 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Interface05 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Interface05 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Interface05 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Interface05 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface05 DIV.container DIV.detail DIV.textbox02 { width:350px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface05 DIV.container DIV.detail DIV.textbox03 { width:550px; height:auto; margin:10px 15px 10px 15px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Interface05 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Interface05 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Interface05 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Interface05 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Interface05 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface05 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface05 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Interface05 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface05 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface05 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Interface05 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface05 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface05 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Interface05 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Interface05 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Interface05 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Interface05 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Interface05 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Gameplay01 A { display:block; color:#FFFFFF; }
+#Gameplay01 A:hover { color:#FFCC00; }
+#Gameplay01 DIV { float:left; margin:0px; padding:0px; }
+#Gameplay01 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Gameplay01 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Gameplay01 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay01 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Gameplay01 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Gameplay01 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.detail DIV.textbox02 { width:250px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Gameplay01 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Gameplay01 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Gameplay01 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Gameplay01 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay01 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Gameplay01 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay01 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Gameplay01 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay01 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Gameplay01 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay01 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay01 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Gameplay01 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Gameplay01 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Gameplay02 A { display:block; color:#FFFFFF; }
+#Gameplay02 A:hover { color:#FFCC00; }
+#Gameplay02 DIV { float:left; margin:0px; padding:0px; }
+#Gameplay02 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Gameplay02 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Gameplay02 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay02 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Gameplay02 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Gameplay02 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.detail DIV.textbox02 { width:250px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Gameplay02 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Gameplay02 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Gameplay02 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Gameplay02 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay02 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Gameplay02 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay02 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Gameplay02 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay02 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Gameplay02 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay02 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay02 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Gameplay02 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Gameplay02 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Gameplay03 A { display:block; color:#FFFFFF; }
+#Gameplay03 A:hover { color:#FFCC00; }
+#Gameplay03 DIV { float:left; margin:0px; padding:0px; }
+#Gameplay03 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Gameplay03 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Gameplay03 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay03 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Gameplay03 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Gameplay03 DIV.container DIV.detail DIV.textbox { width:300px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.detail DIV.textbox02 { width:250px; height:auto; margin:0px 0px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Gameplay03 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Gameplay03 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Gameplay03 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Gameplay03 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay03 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Gameplay03 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay03 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Gameplay03 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay03 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Gameplay03 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay03 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay03 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Gameplay03 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Gameplay03 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Gameplay04 A { display:block; color:#FFFFFF; }
+#Gameplay04 A:hover { color:#FFCC00; }
+#Gameplay04 DIV { float:left; margin:0px; padding:0px; }
+#Gameplay04 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Gameplay04 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Gameplay04 DIV.container DIV.title02 { width:560px; height:auto; margin:0px 0px 5px 20px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay04 DIV.container DIV.detail { width:580px; height:auto; margin:5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Gameplay04 DIV.container DIV.detail DIV.title01 { width:258px; height:auto; margin:5px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay04 DIV.container DIV.detail DIV.textbox02 { width:560px; height:auto; margin:0px 10px 0px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay04 DIV.container DIV.detail DIV.thumbnail { margin:5px 0px; padding:0px; float:left; }
+#Gameplay04 DIV.container DIV.content01 { width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Gameplay04 DIV.container DIV.content02 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Gameplay04 DIV.container DIV.content03 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Gameplay04 DIV.container DIV.content04 { width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Gameplay04 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay04 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay04 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Gameplay04 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay04 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay04 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Gameplay04 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay04 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay04 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Gameplay04 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay04 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay04 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Gameplay04 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Gameplay04 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Gameplay04 DIV.container DIV.arrow { width:200px; height:50px; margin:10px 200px 10px 200px; padding:0px; background-image:url(../Images/GameGuide/Howtoplay/mc_arrow.png); background-repeat:no-repeat; background-position:center; }
+
+#Gameplay05 A { display:block; color:#FFFFFF; }
+#Gameplay05 A:hover { color:#FFCC00; }
+#Gameplay05 DIV { float:left; margin:0px; padding:0px; }
+#Gameplay05 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Gameplay05 DIV.container DIV.title { width:560px; height:auto; margin:0px 0px 10px 10px; padding:0px 0px 0px 45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Gameplay05 DIV.container DIV.title02 { width:auto; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FF9900; }
+#Gameplay05 DIV.container DIV.detail { width:580px; height:auto; margin:10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Gameplay05 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 10px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Gameplay05 DIV.container DIV.detail DIV.textbox { width:380px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Gameplay05 DIV.container DIV.detail DIV.textbox02 { width:380px; height:auto; margin:0px 11px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Gameplay05 DIV.container DIV.detail DIV.textbox03 { width:401px; height:auto; margin:0px 11px 10px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Gameplay05 DIV.container DIV.content01{ width:146px; height:174px; margin:0px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/beginerguide02.jpg); }
+#Gameplay05 DIV.container DIV.content02{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/basicsystem02.jpg); }
+#Gameplay05 DIV.container DIV.content03{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/interface02.jpg); }
+#Gameplay05 DIV.container DIV.content04{ width:146px; height:174px; margin:0px 0px 0px 5px; padding:0px; float:left; background-image:url(../Images/gameguide/Howtoplay/gameplay02.jpg); }
+#Gameplay05 DIV.container DIV.textbox01{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay05 DIV.container DIV.textbox01 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay05 DIV.container DIV.textbox01 A:hover { color:#00CC00; }
+#Gameplay05 DIV.container DIV.textbox02{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay05 DIV.container DIV.textbox02 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay05 DIV.container DIV.textbox02 A:hover { color:#FF0000; }
+#Gameplay05 DIV.container DIV.textbox03{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay05 DIV.container DIV.textbox03 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay05 DIV.container DIV.textbox03 A:hover { color:#0066FF; }
+#Gameplay05 DIV.container DIV.textbox04{ width:140px; height:104px; margin:62px 2px 0px 2px; padding:0px; }
+#Gameplay05 DIV.container DIV.textbox04 A { width:140px; height:17px; margin:0px 0px 2px 0px; padding:0px; display:block; text-align:center; font-weight:bold; color:#FFFFFF; }
+#Gameplay05 DIV.container DIV.textbox04 A:hover { color:#6633FF;}
+#Gameplay05 DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Gameplay05 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Features A { display:block; color:#FFFFFF; }
+#Features A:hover { color:#FFCC00; }
+#Features DIV { float:left; margin:0px; padding:0px; }
+#Features DIV.header { width:600px; height:24px; margin:0px; padding:0px; }
+#Features DIV.header DIV.dropdown { width:170px; height:24px; margin:5px 15px 0px 0px; padding:0px; font-size:12px; float:right; }
+#Features DIV.header DIV.dropdown .box { border:solid 1px #CCCCCC; background-color:#333333; color:#00FFFF; width:170px; height:20px; *height:22px; }
+#Features DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features DIV.container DIV.detail { width:300px; height:auto; margin:10px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features DIV.container DIV.detail DIV.title { width:180px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features DIV.container DIV.detail DIV.thumbnail { margin:0px; padding:0px; margin:0px 0px 0px 10px; float:left; }
+#Features DIV.container DIV.detail DIV.textbox { width:180px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features DIV.container DIV.detail02 { width:320px; height:auto; margin:10px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features DIV.container DIV.detail02 DIV.title02 { width:200px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features DIV.container DIV.detail02 DIV.title02 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features DIV.container DIV.detail02 DIV.thumbnail { margin:0px; padding:0px; margin:0px 0px 0px 10px; float:left; }
+#Features DIV.container DIV.detail02 DIV.textbox02 { width:200px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Features DIV.container DIV.underline { width:580px; height:10px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+#Features01 A { display:block; color:#FFFFFF; }
+#Features01 A:hover { color:#FFCC00; }
+#Features01 DIV { float:left; margin:0px; padding:0px; }
+#Features01 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features01 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features01 DIV.container DIV.titlebox DIV.text { width:100%; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features01 DIV.container DIV.thumbnailcontainer { width:580px; height:auto; margin:10px 10px; padding:0px; }
+#Features01 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features01 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features01 DIV.container DIV.detail DIV.title { width:150px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features01 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features01 DIV.container DIV.detail DIV.textbox { width:150px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features01 DIV.container DIV.detail02 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features01 DIV.container DIV.detail02 DIV.thumbnail02 { margin:0px 10px 0px 0px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Features01 DIV.container DIV.detail02 DIV.title02 { width:300px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features01 DIV.container DIV.detail02 DIV.title02 DIV.count02 { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features01 DIV.container DIV.detail02 DIV.textbox02 { width:450px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features01 DIV.container DIV.detail03 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features01 DIV.container DIV.detail03 DIV.thumbnail03 { margin:0px 10px 0px 0px; height:auto; padding:0px; padding-right:5px; float:left; }
+#Features01 DIV.container DIV.detail03 DIV.title03 { width:450px; height:auto; margin:0px 0px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features01 DIV.container DIV.detail03 DIV.title03 DIV.count03 { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features01 DIV.container DIV.detail03 DIV.textbox03 { width:560px; height:auto; margin:0px 10px 5px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features01 DIV.container DIV.detail03 DIV.textbox03 OL LI { font-weight:bold; }
+#Features01 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features01 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features01 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features02 A { display:block; color:#FFFFFF; }
+#Features02 A:hover { color:#FFCC00; }
+#Features02 DIV { float:left; margin:0px; padding:0px; }
+#Features02 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features02 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features02 DIV.container DIV.titlebox DIV.text { width:100%; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features02 DIV.container DIV.thumbnailcontainer { width:580px; height:auto; margin:10px 10px; padding:0px; }
+#Features02 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features02 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features02 DIV.container DIV.detail DIV.title { width:400px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features02 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features02 DIV.container DIV.detail DIV.textbox { width:400px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features02 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features02 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features02 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features03 A { display:block; color:#FFFFFF; }
+#Features03 A:hover { color:#FFCC00; }
+#Features03 DIV { float:left; margin:0px; padding:0px; }
+#Features03 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features03 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features03 DIV.container DIV.titlebox DIV.text { width:100%; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features03 DIV.container DIV.thumbnailcontainer { width:580px; height:auto; margin:10px 10px; padding:0px; }
+#Features03 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features03 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features03 DIV.container DIV.detail DIV.title { width:360px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features03 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features03 DIV.container DIV.detail DIV.textbox { width:360px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features03 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features03 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features03 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features04 A { display:block; color:#FFFFFF; }
+#Features04 A:hover { color:#FFCC00; }
+#Features04 DIV { float:left; margin:0px; padding:0px; }
+#Features04 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features04 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features04 DIV.container DIV.titlebox DIV.text { width:100%; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features04 DIV.container DIV.thumbnailcontainer { width:580px; height:auto; margin:10px 10px; padding:0px; }
+#Features04 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features04 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features04 DIV.container DIV.detail DIV.title { width:260px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features04 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features04 DIV.container DIV.detail DIV.textbox { width:260px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features04 DIV.container DIV.detail02 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features04 DIV.container DIV.detail02 DIV.thumbnail02 { width:136px; height:100px; margin:10px 5px 0px 4px; padding:0px; float:left; }
+#Features04 DIV.container DIV.detail02 DIV.title02 { width:580px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features04 DIV.container DIV.detail02 DIV.title02 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features04 DIV.container DIV.detail02 DIV.textbox02 { width:580px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features04 DIV.container DIV TABLE TD { color:#333333; }
+#Features04 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features04 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features04 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features05 A { display:block; color:#FFFFFF; }
+#Features05 A:hover { color:#FFCC00; }
+#Features05 DIV { float:left; margin:0px; padding:0px; }
+#Features05 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features05 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px 0px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features05 DIV.container DIV.titlebox DIV.text { width:100%; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features05 DIV.container DIV.thumbnailcontainer { width:580px; height:auto; margin:10px 10px; padding:0px; }
+#Features05 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features05 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features05 DIV.container DIV.detail DIV.title { width:260px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features05 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features05 DIV.container DIV.detail DIV.textbox { width:260px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features05 DIV.container DIV.detail02 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features05 DIV.container DIV.detail02 DIV.thumbnail02 { width:136px; height:100px; margin:10px 5px 0px 4px; padding:0px; float:left; }
+#Features05 DIV.container DIV.detail02 DIV.title02 { width:580px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features05 DIV.container DIV.detail02 DIV.title02 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features05 DIV.container DIV.detail02 DIV.textbox02 { width:580px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features05 DIV.container DIV TABLE TD { color:#333333; }
+#Features05 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features05 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features05 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features06 A { display:block; color:#FFFFFF; }
+#Features06 A:hover { color:#FFCC00; }
+#Features06 DIV { float:left; margin:0px; padding:0px; }
+#Features06 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features06 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features06 DIV.container DIV.text { width:275px; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features06 DIV.container DIV.thumbnailcontainer { width:302px; height:364px; margin:10px 10px; padding:0px; }
+#Features06 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features06 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features06 DIV.container DIV.detail DIV.title { width:400px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features06 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features06 DIV.container DIV.detail DIV.textbox { width:400px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features06 DIV.container DIV.detail02 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features06 DIV.container DIV.detail02 DIV.thumbnail02 { width:136px; height:100px; margin:10px 5px 0px 4px; padding:0px; float:left; }
+#Features06 DIV.container DIV.detail02 DIV.title02 { width:580px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features06 DIV.container DIV.detail02 DIV.title02 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features06 DIV.container DIV.detail02 DIV.textbox02 { width:580px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features06 DIV.container DIV TABLE TD { color:#333333; }
+#Features06 DIV.container DIV.blank { width:580px; height:10px; margin:0px; padding:0px; }
+#Features06 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features06 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+
+#Features07 A { display:block; color:#FFFFFF; }
+#Features07 A:hover { color:#FFCC00; }
+#Features07 DIV { float:left; margin:0px; padding:0px; }
+#Features07 DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Features07 DIV.container DIV.titlebox { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#FF9900; font-weight:bold; }
+#Features07 DIV.container DIV.text { width:275px; height:auto; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features07 DIV.container DIV.thumbnailcontainer { width:302px; height:456px; margin:0px 10px 0px 10px; padding:0px; }
+#Features07 DIV.container DIV.detail { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features07 DIV.container DIV.detail DIV.thumbnail { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features07 DIV.container DIV.detail DIV.thumbnail00 { margin:10px 5px 0px 0px; padding:0px; float:right; }
+#Features07 DIV.container DIV.detail DIV.title { width:280px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features07 DIV.container DIV.detail DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features07 DIV.container DIV.detail DIV.textbox { width:280px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features07 DIV.container DIV.detail DIV.blank02 { width:280px; height:20px; margin:0px; padding:0px; }
+#Features07 DIV.container DIV.detail01 { width:250px; height:auto; margin:10px 10px 0px 5px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features07 DIV.container DIV.detail01 DIV.thumbnail01 { margin:0px 10px 0px 0px; padding:0px; float:left; }
+#Features07 DIV.container DIV.detail01 DIV.title01 { width:250px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:right; }
+#Features07 DIV.container DIV.detail01 DIV.title DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features07 DIV.container DIV.detail01 DIV.textbox01 { width:250px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:right; }
+#Features07 DIV.container DIV.detail02 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features07 DIV.container DIV.detail02 DIV.thumbnail02 { width:136px; height:100px; margin:10px 5px 0px 4px; padding:0px; float:left; }
+#Features07 DIV.container DIV.detail02 DIV.title02 { width:580px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features07 DIV.container DIV.detail02 DIV.title02 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features07 DIV.container DIV.detail02 DIV.textbox02 { width:580px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+#Features07 DIV.container DIV TABLE TD { color:#333333; }
+#Features07 DIV.container DIV.blank { width:580px; height:20px; margin:0px; padding:0px; }
+#Features07 DIV.container DIV.underline { width:580px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Features07 DIV.container DIV.btn { width:235px; height:auto; margin:0px 20px 20px 0px; padding:0px; float:right;}
+#Features07 DIV.container DIV.detail03 { width:580px; height:auto; margin:10px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Features07 DIV.container DIV.detail03 DIV.thumbnail03 { width:136px; height:100px; margin:10px 9px 0px 0px; padding:0px; float:left; text-align:center; }
+#Features07 DIV.container DIV.detail03 DIV.title03 { width:580px; height:auto; margin:0px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#FFCC00; float:left; }
+#Features07 DIV.container DIV.detail03 DIV.title03 DIV.count { margin-right:7px; font-size:17px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#FF9900; }
+#Features07 DIV.container DIV.detail03 DIV.textbox03 { width:580px; height:auto; margin:0px 0px 0px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; }
+
+#Valueaddedservice DIV { float:left; margin:0px; padding:0px; }
+#Valueaddedservice DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Valueaddedservice DIV.container DIV.title01 { width:600px; height:25px; margin:10px 0px; padding-left:45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Valueaddedservice DIV.container DIV.detail { width:600px; height:auto; margin:5px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Valueaddedservice DIV.container DIV.title02 { width:580px; height:auto; margin:10px 10px 0px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#FFFFFF; text-align:center; }
+#Valueaddedservice DIV.container DIV.detail DIV.thumbnail { width:280px; height:auto; margin:70px 5px 70px 5px; padding:0px; float:left; }
+#Valueaddedservice DIV.container DIV.detail DIV.textbox { width:280px; height:auto; margin:0px 20px 0px 0px; padding:0px; float:right; }
+#Valueaddedservice DIV.container DIV.detail DIV.btn { width:235px; height:60px; margin:20px 40px 0px 0px; padding:0px; float:right; }
+#Valueaddedservice DIV.container DIV.detail DIV.underline02 { width:560px; height:1px; margin:10px 0px 10px 0px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Valueaddedservice DIV.container DIV.thumbnail01 { width:404px; height:202px; margin:10px 98px; padding:0px; float:left; }
+#Valueaddedservice DIV.container DIV.thumbnail02 { width:374px; height:266px; margin:10px 113px; padding:0px; float:left; }
+#Valueaddedservice DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Valueaddedservice DIV.container DIV.underline { width:560px; height:1px; margin:5px 10px 5px 10px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+
+
+#Premiumservice DIV { float:left; margin:0px; padding:0px; }
+#Premiumservice DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Premiumservice DIV.container DIV.title02 { width:600px; height:20px; margin:10px 0px; padding-left:20px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#FF9900; }
+#Premiumservice DIV.container DIV.textbox02 { width:530px; height:auto; margin:0px 0px 0px 0px; padding:0px; }
+#Premiumservice DIV.container DIV.textbox02 li { font-weight:bold; }
+#Premiumservice DIV.container DIV.btn { width:235px; height:auto; margin:10px 0px 10px 182px; padding:0px; }
+#Premiumservice DIV.container DIV.blank { width:500px; height:10px; margin:10px 0px 10px 182px; padding:0px; }
+#Premiumservice DIV.container DIV.detail TABLE TD { color:#000000; }
+
+
+#Vippackage DIV { float:left; margin:0px; padding:0px; }
+#Vippackage DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Vippackage DIV.container DIV.blank { width:500px; height:10px; margin:10px 0px 10px 182px; padding:0px; }
+#Vippackage DIV.container DIV.title { width:600px; height:auto; margin:0px; padding:0px; font-size:15px; color:#0099FF; }
+#Vippackage DIV.container DIV.textbox { width:600px; height:auto; margin:0px; padding:0px; }
+#Vippackage DIV.container DIV.textbox P { width:560px; height:auto; margin:0px 0px 0px 10px; padding:10px; }
+#Vippackage DIV.container DIV.btnContainer { width:auto; height:auto; margin:10px 0px 10px 180px; }
+#Vippackage DIV.container DIV.detail { width:600px; height:auto; margin:0px auto; padding:0px; }
+#Vippackage DIV.container DIV.detail DIV.textbox02 { margin:0px; padding:10px; width:auto; height:auto; color:#999999; }
+#Vippackage DIV.container DIV.detail DIV.textbox02 UL { margin:0px; padding:0px 0px 0px 10px; }
+#Vippackage DIV.container DIV.detail SPAN { font-size:15px; font-weight:bold; color:#00CCFF; }
+#Vippackage DIV.container DIV.detail TABLE TR TD { text-align:center; color:#000000; }
+#Vippackage DIV.container DIV.detail TABLE TR TD A { font-weight:bold; color:#FF9900; text-decoration:underline; }
+#Vippackage DIV.container DIV.detail TABLE TR TD P { width:100%; height:auto; margin:0px; padding:5px 0PX; font-size:12px; font-weight:bold; text-align:center; color:#000000; }
+
+#Kafrashopguide DIV { float:left; margin:0px; padding:0px; }
+#Kafrashopguide DIV.container { width:600px; height:auto; margin:0px 0px; padding:0px; color:#FFFFFF; font-size:12px; }
+#Kafrashopguide DIV.container DIV.title01 { width:600px; height:25px; margin:10px 0px; padding-left:45px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; background-image:url(../Images/Share/icon_bullet2.png); background-position:left; background-repeat:no-repeat; }
+#Kafrashopguide DIV.container DIV.detail { width:600px; height:auto; margin:5px 0px 5px 0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; float:left; }
+#Kafrashopguide DIV.container DIV.title02 { width:580px; height:auto; margin:10px 10px 0px 10px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#FFFFFF; text-align:center; }
+#Kafrashopguide DIV.container DIV.detail DIV.thumbnail { width:366px; height:auto; margin:10px 117px 0px 117px; padding:0px; float:left; }
+#Kafrashopguide DIV.container DIV.detail DIV.thumbnail02 { width:390px; height:auto; margin:10px 105px 0px 105px; padding:0px; float:left; }
+#Kafrashopguide DIV.container DIV.detail DIV.thumbnail03 { width:560px; height:auto; margin:10px 20px 0px 20px; padding:0px; float:left; }
+#Kafrashopguide DIV.container DIV.detail DIV.textbox { width:560px; height:auto; margin:0px 20px 0px 20px; padding:0px; float:right; }
+#Kafrashopguide DIV.container DIV.detail DIV.textbox DIV.thumbnail04 { width:100px; height:100px; margin:10px 0px 0px 0px; padding:0px; float:left; }
+#Kafrashopguide DIV.container DIV.detail DIV.textbox DIV.text { width:440px; height:100px; margin:10px 10px; padding:0px; float:left; }
+#Kafrashopguide DIV.container DIV.detail DIV.underline02 { width:560px; height:1px; margin:10px 0px 10px 0px; padding:0px; background-image:url(../images/share/mc_2pxline.png); background-repeat:no-repeat; background-position: center bottom; }
+#Kafrashopguide DIV.container DIV.blank { width:580px; height:20px; margin:0px 0px 0px 0px; padding:0px; }
+#Kafrashopguide DIV.container DIV.arrow { width:200px; height:50px; margin:10px 200px 10px 200px; padding:0px; background-image:url(../Images/GameGuide/Howtoplay/mc_arrow.png); background-repeat:no-repeat; background-position:center; }
+
+#Helpfulstartguide DIV { float:left; margin:0px; padding:0px; }
+#Helpfulstartguide DIV.selectedBG { width:500px; height:688px; position:absolute; top:80px; left:0; z-index:10; margin:0 50px; !important; }
+#Helpfulstartguide DIV.container { width:600px; height:auto; margin:0px; padding:0px; color:#FFFFFF; font-size:12px; position: relative; z-index:20; }
+#Helpfulstartguide DIV.container A { width:100%; height:100%; display:block; cursor:pointer; }
+#Helpfulstartguide DIV.container DIV.new { width:250px; height:auto; margin:190px 0 0 10px; }
+#Helpfulstartguide DIV.container DIV.new DIV.title { width:175px; height:auto; font-size:19px; font-weight:bold; color:#FF9900; }
+#Helpfulstartguide DIV.container DIV.new DIV.detail { width:175px; height:auto; margin:10px 0 0 0; font-size:12px; color:#FFF; }
+#Helpfulstartguide DIV.container DIV.new A:hover DIV.detail { color:#FF9900 !important; }
+#Helpfulstartguide DIV.container DIV.returning { width:250px; height:auto; margin:230px 0 0 90px; text-align:right; }
+#Helpfulstartguide DIV.container DIV.returning DIV.title { width:180px; height:auto; margin:50px 10px 0 0; font-size:19px; font-weight:bold; color:#00FFFF; float:right !important; }
+#Helpfulstartguide DIV.container DIV.returning DIV.detail { width:180px; height:auto; margin:10px 10px 0 0; font-size:12px; color:#FFF; float:right !important;  }
+#Helpfulstartguide DIV.container DIV.returning A:hover DIV.detail { color:#00FFFF !important; }
+#Helpfulstartguide DIV.container DIV.arrow { width:600px; height:auto; margin:10px 0 0 0; }
+#Helpfulstartguide DIV.container DIV.arrow IMG.new { margin:0 0 0 50px; }
+#Helpfulstartguide DIV.container DIV.arrow IMG.returning { margin:0 0 0 500px; }
+#Helpfulstartguide DIV.container DIV.contentDetail { width:600px; height:auto; margin:0; background:url(../images/share/bg_opacity85.png) center repeat; -webkit-border-radius:6px; -moz-border-radius: 6px; border-radius:6px; position:relative; }
+#Helpfulstartguide DIV.container DIV.contentDetail DIV.title { width:570px; height:auto; margin:15px; border-bottom:solid 1px# 3a3c3c; font-size:20px; font-weight:bold; color:#ff8400; }
+#Helpfulstartguide DIV.container DIV.contentDetail DIV.detail { width:570px; height:auto; margin:0 15px 15px 15px; font-size:12px }
+#Helpfulstartguide DIV.container DIV.contentDetail DIV.detail A { width:auto !important; height:auto !important;; display:inline !important; color:#00FFFF !important; text-decoration:underline; }
+#Helpfulstartguide DIV.container DIV.contentDetail DIV.detail IMG { float:left; margin:0; border:0; }
