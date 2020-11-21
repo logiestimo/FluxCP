@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'IngamingRO',
+		'ServerName'     => 'FluxRO',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -13,10 +13,10 @@ return array(
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
-			'Hostname'   => '51.79.157.53',
-			'Username'   => 'cloudro',
-			'Password'   => 'ayanami222',
-			'Database'   => 'clouddb',
+			'Hostname'   => '127.0.0.1',
+			'Username'   => 'ragnarok',
+			'Password'   => 'ragnarok',
+			'Database'   => 'ragnarok',
 			'Persistent' => true,
 			'Timezone'   => null // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
@@ -34,16 +34,16 @@ return array(
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
-			'Hostname'   => '51.79.157.53',
-			'Username'   => 'cloudro',
-			'Password'   => 'ayanami222',
-			'Database'   => 'logs',
+			'Hostname'   => '127.0.0.1',
+			'Username'   => 'ragnarok',
+			'Password'   => 'ragnarok',
+			'Database'   => 'ragnarok',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
-			'Address'  => '51.79.157.53',
+			'Address'  => '127.0.0.1',
 			'Port'     => 6900,
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
@@ -52,42 +52,42 @@ return array(
 		),
 		'CharMapServers' => array(
 			array(
-				'ServerName'      => 'IngamingRO',
-				'Renewal'         => false,
+				'ServerName'      => 'FluxRO',
+				'Renewal'         => true,
 				'MaxCharSlots'    => 9,
 				'DateTimezone'    => null, // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
-					'Base'        => 1000, // Rate at which (base) exp is given
-					'Job'         => 1000, // Rate at which job exp is given
+					'Base'        => 100, // Rate at which (base) exp is given
+					'Job'         => 100, // Rate at which job exp is given
 					'Mvp'         => 100  // MVP bonus exp rate
 				),
 				'DropRates' => array(
 					// The rate the common items (in the ETC tab, besides card) are dropped
-					'Common'      => 70000,
-					'CommonBoss'  => 10000,
+					'Common'      => 100,
+					'CommonBoss'  => 100,
 					// The rate healing items (that restore HP or SP) are dropped
-					'Heal'        => 100000,
-					'HealBoss'    => 100000,
+					'Heal'        => 100,
+					'HealBoss'    => 100,
 					// The rate usable items (in the item tab other then healing items) are dropped
-					'Useable'     => 100000,
-					'UseableBoss' => 100000,
+					'Useable'     => 100,
+					'UseableBoss' => 100,
 					// The rate at which equipment is dropped
-					'Equip'       => 15000,
-					'EquipBoss'   => 15000,
+					'Equip'       => 100,
+					'EquipBoss'   => 100,
 					// The rate at which cards are dropped
-					'Card'        => 5000,
-					'CardBoss'    => 75,
+					'Card'        => 100,
+					'CardBoss'    => 100,
 					// The rate adjustment for the MVP items that the MVP gets directly in their inventory
 					'MvpItem'     => 100
 				),
 				'CharServer'      => array(
-					'Address'     => '51.79.157.53',
+					'Address'     => '127.0.0.1',
 					'Port'        => 6121
 				),
 				'MapServer'       => array(
-					'Address'     => '51.79.157.53',
+					'Address'     => '127.0.0.1',
 					'Port'        => 5121
 				),
 				// -- WoE days and times --
